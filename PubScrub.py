@@ -5,8 +5,7 @@ from docx import Document
 
 #user input
 pubMedPrompt = input('Enter your PubMed search prompt: ')
-#openai.api_key = input('Enter your openai.api_key: ')
-openai.api_key = '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'
+openai.api_key = input('Enter your openai.api_key: ')
 
 
 #get pubmed URL
